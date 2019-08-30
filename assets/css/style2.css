@@ -1,0 +1,80 @@
+/* general styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background-image: url("../images/GreyMarble.jpg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* use width:100% and max-width: 960px to indicate that you want it to span the entire length of the webpage and but when the webpage is longer than 960px, then set that as the limit */
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+    clear: both; 
+}
+
+.content-container {
+    background: white;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 700; 
+    color: #4aaaa5;
+}
+
+h2, h3 {
+    font-size: 22px; 
+}
+
+
+
+
+/* header styling */
+.header-container {
+    width: 100%;
+    margin: 0 auto; 
+    clear: both; 
+}
+
+nav {
+    color: #ffffff;
+    background: #ffffff; 
+    border-bottom: 2px solid #cccccc; 
+}
+
+#nav-right
+
+#nav-left
+
+
+
+
+
+
+/* footer styling */
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+}
