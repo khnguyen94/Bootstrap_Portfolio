@@ -51,18 +51,26 @@ h2, h3 {
     clear: both; 
 }
 
-nav {
+#nav-right {
     color: #ffffff;
-    background: #ffffff; 
+    background: #4aaaa5; 
     border-bottom: 2px solid #cccccc; 
 }
 
-#nav-item {
-    background-color: #4aaaa5;
+#nav-left {
+    color: grey;
+    background: white; 
+    border-bottom: 2px solid #cccccc; 
 }
 
+.nav-link {
+    color: white;
+}
 
-#nav-left
+#nav-link-left {
+    color: grey;
+    border-left: solid #efefef;
+}
 
 
 
