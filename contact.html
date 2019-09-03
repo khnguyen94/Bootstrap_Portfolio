@@ -6,7 +6,7 @@
     <title>Contact | Khoa Nguyen</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../Basic_Portfolio/assets/css/style2.css">
+    <link rel="stylesheet" type="text/css" href="../Bootstrap_Portfolio/assets/css/style2.css">
 </head>
 
 <body>
@@ -14,24 +14,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-1 float-left">
-                    <nav id="nav-right" class="nav nav-pills nav-fill">
+                    <nav id="nav-right" class="nav">
                         <a href="../Bootstrap_Portfolio/index.html"></a>
-                        <li class="nav-item">
+                        <li id="nav-item-right" class="nav-item">
                             <a class="nav-link active" href="../Bootstrap_Portfolio/index.html">Khoa Nguyen</a>
                         </li>
                     </nav>
                 </div>
 
-                <div class="col">
+                <div class="col float-right">
                     <nav id="nav-left" class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link" href="../Bootstrap_Portfolio/index.html">About Me</a>
+                            <a id="nav-link-left" class="nav-link" href="../Bootstrap_Portfolio/index.html">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Bootstrap_Portfolio/portfolio.html">Portfolio</a>
+                            <a id="nav-link-left" class="nav-link"
+                                href="../Bootstrap_Portfolio/portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Bootstrap_Portfolio/contact.html">Contact</a>
+                            <a id="nav-link-left" class="nav-link"
+                                href="../Bootstrap_Portfolio/contact.html">Contact</a>
                         </li>
                     </nav>
                 </div>
@@ -39,9 +41,10 @@
         </div>
     </header>
 
-    <div class="container">
-        <section class="main-section">
+    <hr>
 
+    <div class="container">
+        <div id="contact-content-container">
             <h1>Contact</h1>
 
             <form id="contact-form" action="#">
@@ -62,7 +65,7 @@
                         required="required"></textarea>
                 </div>
             </form>
-        </section>
+        </div>
     </div>
 
     <footer>

@@ -54,13 +54,13 @@ h2, h3 {
 #nav-right {
     color: #ffffff;
     background: #4aaaa5; 
-    border-bottom: 2px solid #cccccc; 
+    border-bottom: none; 
 }
 
 #nav-left {
     color: grey;
     background: white; 
-    border-bottom: 2px solid #cccccc; 
+    border-bottom: none; 
 }
 
 .nav-link {
@@ -77,6 +77,7 @@ h2, h3 {
 /* porfolio styling */
 .project-list {
     list-style: none;
+    background-color: white;
 }
 
 .project {
@@ -106,6 +107,14 @@ h2, h3 {
     background: #4aaaa5;
     border-bottom: 0;
 }
+
+
+/* contact styling */
+#contact-content-container {
+    background: white;
+    padding: 20px;
+}
+
 
 /* footer styling */
 footer {
