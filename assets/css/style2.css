@@ -57,7 +57,10 @@ nav {
     border-bottom: 2px solid #cccccc; 
 }
 
-#nav-right
+#nav-item {
+    background-color: #4aaaa5;
+}
+
 
 #nav-left
 
